@@ -2,15 +2,17 @@ import React, {Component} from "react";
 import {
     View,
     Text,
-    StyleSheet
+    StyleSheet,
+    Button
 } from "react-native";
-
+import firebase from 'firebase';
 
 export default class DashboardScreen extends Component{
     render(){
         return(
             <View style={styles.container}>
                 <Text>DashboardScreen</Text>
+                <Button title="Sign Out" onPress={() => firebase.auth().signOut()} />
             </View>
         )
     }
