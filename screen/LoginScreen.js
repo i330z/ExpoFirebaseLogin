@@ -15,6 +15,7 @@ export default class LoginScreen extends Component{
           const result = await Google.logInAsync({
             behavior:'expo-google-sign-in',
             androidClientId: '837553397474-edbvil9d2p3e9p1a2633ucoed4iup3uq.apps.googleusercontent.com',
+
             scopes: ['profile', 'email'],
           });
       
