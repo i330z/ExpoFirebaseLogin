@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "837553397474",
+    "firebase_url": "https://reactnative-123.firebaseio.com",
+    "project_id": "reactnative-123",
+    "storage_bucket": "reactnative-123.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837553397474:android:32c8fdc3f8fdf5af7788bb",
+        "android_client_info": {
+          "package_name": "com.vegastep.io"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837553397474-ruut3gtb2ub866k1vlf1o4q94gom8hqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOAMWoxbVYleCSbdtAVoy5b4eaLbssQU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837553397474-ruut3gtb2ub866k1vlf1o4q94gom8hqo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
