@@ -14,37 +14,37 @@ import * as firebase from 'firebase';
 import { firebaseConfig } from './config' 
 firebase.initializeApp(firebaseConfig);
 
-// export default class App extends Component {
-//   render(){
-//     return (
-//       <AppNavigator />
-//     );
-//   }
-// }
-
-async function register(){
-  const { status: existingStatus } = await Permissions.getAsync(
-    Permissions.NOTIFICATIONS
-  );
-  console.log(existingStatus)
-  // let token = await Notifications.getExpoPushTokenAsync();
-  // console.log(token)
-}
-
 export default class App extends Component {
-
-  componentWillMount(){
-    register()
-  }
-
   render(){
     return (
-      <View>
-        <Text>hello</Text>
-      </View>
+      <AppNavigator />
     );
   }
 }
+
+// async function register(){
+//   const { status: existingStatus } = await Permissions.getAsync(
+//     Permissions.NOTIFICATIONS
+//   );
+//   console.log(existingStatus)
+//   let token = await Notifications.getExpoPushTokenAsync();
+//   console.log(token)
+// }
+
+// export default class App extends Component {
+
+//   componentWillMount(){
+//     register()
+//   }
+
+//   render(){
+//     return (
+//       <View>
+//         <Text>hello</Text>
+//       </View>
+//     );
+//   }
+// }
 
 const AppSwitchnavigator = createSwitchNavigator({
   LoadingScreen: LoadingScreen,
