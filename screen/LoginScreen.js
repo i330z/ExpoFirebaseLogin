@@ -97,7 +97,7 @@ export default class LoginScreen extends Component{
           } else {
             return { cancelled: true };
           }
-        } catch (e) {
+        } catch (error) {
           return { error: true };
         }
       }

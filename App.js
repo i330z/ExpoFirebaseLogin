@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { createAppContainer, createSwitchNavigator } from 'react-navigation'
-import { Notifications } from 'expo';
-import * as Permissions from 'expo-permissions';
+
 import Expo from 'expo';
 
 import LoginScreen from './screen/LoginScreen'
